@@ -1,6 +1,8 @@
 import { createApp } from 'vue'
-import { init } from '@tma.js/sdk-vue'
+import { init } from './init'
 import App from './App.vue'
+
+import './assets/styles/global.css'
 
 try {
   init()
